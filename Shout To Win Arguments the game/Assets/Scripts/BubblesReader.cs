@@ -9,6 +9,7 @@ public class Bubbles
     public Bubble[] level3;
 }
 
+[System.Serializable]
 public class Bubble
 {
     public string phrase;
@@ -16,6 +17,7 @@ public class Bubble
     public Answers answers;
 }
 
+[System.Serializable]
 public class Answers
 {
     public string like;
