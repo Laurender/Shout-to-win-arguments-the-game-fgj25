@@ -1,16 +1,16 @@
 {
     "level1": [
         {
-            "phrase": "ensimmäinen ensimmäisellä levelillä",
+            "phrase": "Paljonko nostat penkistä! Meitsi on käyny salilla tällä viikolla joka päivä! Kyl nyt likat tykkää.",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Hyvät sulle. Kiva ku jaksat käydä.",
+                "dislike": "Sali on ihan vitun tylsää puuhaa. Mä en kyllä tajua kuka siellä jaksaa käydä. Ajan haaskausta.",
+                "hate": "Mikä vitun salijaska sä oot! Pelle! Ei tolla naamalla saa naista vaikka kävis salilla viidesti päivässä!"
             }
         },
         {
-            "phrase": "toinen ensimmäisellä levelillä",
+            "phrase": "Hyvät sulle. Kiva ku jaksat käydä.",
             "correct": "like",
             "answers": {
                 "like": "AAA",
@@ -19,21 +19,21 @@
             }
         },
         {
-            "phrase": "Örrörrörr",
-            "correct": "like",
+            "phrase": "ES on jumalten juoma. Varmaan puolet mun ravinnosta on ES:ää.",
+            "correct": "dislike",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Niin munki! Ihminen ei tarvi about mitää muuta! Kunnon pärinät päällä 24/7.",
+                "dislike": "Onkohan toi ny ihan fiksua?",
+                "hate": "Vitun aivokääpiö! Toi on ihan saatanan epäterveellistä. Nyt vittu loppuu tommonen elämä ja alat syyä ja elää ihmisiks! Kuolet tota menoo."
             }
         },
         {
-            "phrase": "Örrörrörr",
+            "phrase": "Pillu se on pingviinilläki! Iskin viime viikonloppuna yhen kurpan ja nussin sitä koko viikonlopun, se huus niin hoosiannaa mun käsissä! ",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Hyvät sulle.",
+                "dislike": "Et vittu puhu naisista tohon sävyyn.",
+                "hate": "Ihan perseestä et sulla on noita naisia joka sormelle, ja meitsi on ollu yksin koko vitun elämäni. Mene sinä helvettiin noitten naistes kanssa. En tykkää! Kehtaat vielä leuhkia!"
             }
         }
     ],
