@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TravelingTypewriter_0: 5630256464461766808
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
