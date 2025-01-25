@@ -16,6 +16,8 @@ public class TypingInput : MonoBehaviour
 
     private bool active;
 
+    public GameManager gm;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,7 +27,8 @@ public class TypingInput : MonoBehaviour
 
         timer = FindFirstObjectByType<Timer>();
 
-        StartTyping("TESTING TESTING");
+        //StartTyping("TESTING TESTING");
+        active = false;
     }
 
     // Update is called once per frame
@@ -80,6 +83,7 @@ public class TypingInput : MonoBehaviour
         SetExpectedString("");
         active = false;
         errorAnimator.Play("Error", -1, 0f);
+        gm.OnTypingEnd();
     }
 
     void Success()
@@ -90,6 +94,8 @@ public class TypingInput : MonoBehaviour
         active = false;
 
         timer.StopTimer();
+
+        gm.OnTypingEnd();
     }
 
 }

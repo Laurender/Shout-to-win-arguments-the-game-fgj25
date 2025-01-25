@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Char_instapissis_0: 5062767482240846759
+      Char_instapissis_1: 5660254192177851811
+      Char_instapissis_2: -4064677839460730806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,7 +18,8 @@ public class Timer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartTimer();
+        //StartTimer();
+        started = false;
 
         gradient = new Gradient();
 

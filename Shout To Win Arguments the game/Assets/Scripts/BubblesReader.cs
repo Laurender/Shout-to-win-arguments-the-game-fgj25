@@ -39,7 +39,7 @@ public class BubblesReader : MonoBehaviour
 
     public Dictionary<string, int> usedBubbles;
 
-    void Start()
+    void Awake()
     {
         characterBubbles = new Dictionary<string, Bubbles>
         {

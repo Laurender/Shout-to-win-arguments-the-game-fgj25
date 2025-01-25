@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      table_rasisti_0: 741031131883831195
+      table_rasisti_1: 5425573214624514202
+      table_rasisti_2: -118013580423126148
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
