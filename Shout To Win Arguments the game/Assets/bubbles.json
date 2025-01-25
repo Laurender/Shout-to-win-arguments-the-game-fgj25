@@ -1,7 +1,7 @@
 {
     "level1": [
         {
-            "phrase": "Örrörrörr",
+            "phrase": "ensimmäinen ensimmäisellä levelillä",
             "correct": "like",
             "answers": {
                 "like": "Blöblöblö",
@@ -10,12 +10,12 @@
             }
         },
         {
-            "phrase": "Örrörrörr",
+            "phrase": "toinen ensimmäisellä levelillä",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "AAA",
+                "dislike": "BBB",
+                "hate": "CCC"
             }
         },
         {
@@ -39,7 +39,7 @@
     ],
     "level2": [
         {
-            "phrase": "Örrörrörr",
+            "phrase": "ensimmäinen toisella levelillä",
             "correct": "like",
             "answers": {
                 "like": "Blöblöblö",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "phrase": "Örrörrörr",
+            "phrase": "toinen toisella levelillä",
             "correct": "like",
             "answers": {
                 "like": "Blöblöblö",
