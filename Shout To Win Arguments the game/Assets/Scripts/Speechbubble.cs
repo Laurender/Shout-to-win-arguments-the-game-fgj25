@@ -5,31 +5,54 @@ using System;
 public class Speechbubble : MonoBehaviour
 {
     public GameObject[] bubbles;
-    public GameObject choises;
+    //public GameObject choises;
 
     public TMP_Text bubbleText;
 
+    public string character = "test";
+    public BubblesReader bRead;
+    Bubble nextBub;
+    public GameManager gm;
+    bool active = true;
+
     public void ChooceBubble()
     {
-        //Disable other bubbles
-        foreach (GameObject bub in bubbles) 
+        if (active)
         {
-            if (bub != this.gameObject) 
-            {
-                bub.SetActive(false);
-            }
+            gm.SetCurrentBubble(this);
+            active = false;
         }
-
-        //Open choises
-        choises.SetActive(true);
-
     }
 
-    public void ChooseResponse(int choise)
+    public string ChooseResponse(int choise)
     {
-        choises.SetActive(false);
-
         //use int choise to choose response
         //1=agree, 2=disagree, 3=angry?
+        string response = null;
+        switch (choise) 
+        { 
+            case 1:
+                response = nextBub.answers.like;
+                break;
+            case 2:
+                response = nextBub.answers.dislike;
+                break;
+            case 3:
+                response = nextBub.answers.hate;
+                break;
+        }
+
+        return response;
+    }
+
+    public void AskQuestion(int l)
+    {
+        nextBub = bRead.getNextBubble(character, l);
+        bubbleText.text = nextBub.phrase;
+    }
+
+    public void SetUsable()
+    {
+        active = true;
     }
 }

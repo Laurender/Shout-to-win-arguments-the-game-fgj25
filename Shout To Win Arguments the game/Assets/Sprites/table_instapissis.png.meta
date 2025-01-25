@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      table_instapissis_0: 7953100544371836865
+      table_instapissis_1: 4093190245804016947
+      table_instapissis_2: -6810483346616182819
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
