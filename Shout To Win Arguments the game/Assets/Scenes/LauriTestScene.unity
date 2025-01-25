@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3819982907255769183, guid: a3a3ccd8abae0d44297675c4d20d62c8, type: 3}
+  m_Sprite: {fileID: -2003928467534866325, guid: 76749583da4ed4c4e9f5dc7443c8f1c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -502,10 +502,10 @@ RectTransform:
   - {fileID: 86433250}
   m_Father: {fileID: 1282801144}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 266.79553, y: 35.18393}
-  m_SizeDelta: {x: 168.5286, y: 101.4679}
+  m_AnchorMin: {x: 0.067, y: 0}
+  m_AnchorMax: {x: 0.93600005, y: 1}
+  m_AnchoredPosition: {x: -84, y: 70}
+  m_SizeDelta: {x: -667.47144, y: -498.5321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589904179
 MonoBehaviour:
@@ -602,6 +602,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubbles: []
+  choises: {fileID: 0}
+  bubbleText: {fileID: 0}
 --- !u!1 &1282801140
 GameObject:
   m_ObjectHideFlags: 0
