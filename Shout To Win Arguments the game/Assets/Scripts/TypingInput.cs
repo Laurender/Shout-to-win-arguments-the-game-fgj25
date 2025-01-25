@@ -18,6 +18,8 @@ public class TypingInput : MonoBehaviour
 
     public GameManager gm;
 
+    private AudioSource audioSource;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,6 +31,8 @@ public class TypingInput : MonoBehaviour
 
         //StartTyping("TESTING TESTING");
         active = false;
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -96,6 +100,12 @@ public class TypingInput : MonoBehaviour
         timer.StopTimer();
 
         gm.OnTypingEnd();
+
+
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
     }
 
 }

@@ -15,6 +15,14 @@ public class Speechbubble : MonoBehaviour
     public GameManager gm;
     bool active = true;
 
+    private AudioSource audioSource;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     public void ChooceBubble()
     {
         if (active)
@@ -49,6 +57,11 @@ public class Speechbubble : MonoBehaviour
     {
         nextBub = bRead.getNextBubble(character, l);
         bubbleText.text = nextBub.phrase;
+
+        if (audioSource != null)
+        {
+            audioSource.Play();
+        }
     }
 
     public void SetUsable()
