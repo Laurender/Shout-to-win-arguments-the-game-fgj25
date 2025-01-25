@@ -4,12 +4,19 @@ using System;
 
 public class GameManager : MonoBehaviour
 {
-    public int questionAmount = 6;
+    public int questionAmount = 3;
     string[] questions;
     public TMP_Text[] bubbles;
     TMP_Text[] closedBubbles;
+    
+
+    //array with each person
+    public GameObject[] characters;
+    int nextCharacter = 0;
+
     private void Start()
     {
+        /*
         //choose starting questions
         questions = new string[questionAmount];
 
@@ -25,15 +32,25 @@ public class GameManager : MonoBehaviour
         //set bubbles active
         int t = 0;
 
-        foreach (TMP_Text bub in bubbles) {
+        foreach (TMP_Text bub in bubbles)
+        {
             bub.text = questions[t];
             bub.gameObject.SetActive(true);
             t++;
-            if (t == questions.Length) 
+            if (t == questions.Length)
             {
                 break;
             }
+        }*/
+
+        //
+        //start with first 3 characters
+        //ask each character to choose a question
+        for(int i = 0;i < questionAmount; i++)
+        {
+            //characters[i].AskQuestion();
         }
+        nextCharacter = questionAmount;
 
     }
 
@@ -64,5 +81,15 @@ public class GameManager : MonoBehaviour
             leftovers[j] = newQs[j];
         }
         return leftovers;
+    }
+
+    public void AskNextQuestion()
+    {
+        //characters[nextCharacter].AskQuestion();
+        nextCharacter++;
+        if(nextCharacter >= characters.Length)
+        {
+            nextCharacter = 0;
+        }
     }
 }
