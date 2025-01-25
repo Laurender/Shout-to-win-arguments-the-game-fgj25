@@ -12,6 +12,9 @@ public class Timer : MonoBehaviour
 
     private Image image;
 
+    private BeerCounter beers;
+    private TypingInput typingInput;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,6 +34,9 @@ public class Timer : MonoBehaviour
         gradient.SetKeys(colors, alphas);
 
         image = GetComponent<Image>();
+
+        beers = FindFirstObjectByType<BeerCounter>();
+        typingInput = FindFirstObjectByType<TypingInput>();
     }
 
     // Update is called once per frame
@@ -45,10 +51,10 @@ public class Timer : MonoBehaviour
                 OutOfTime();
             }
 
-            transform.localScale = new Vector3(timer / maxTime, transform.localScale.y, transform.localScale.z);
-
-            image.color = gradient.Evaluate(timer / maxTime);
         }
+
+        transform.localScale = new Vector3(timer / maxTime, transform.localScale.y, transform.localScale.z);
+        image.color = gradient.Evaluate(timer / maxTime);
     }
 
     public void StartTimer()
@@ -57,9 +63,18 @@ public class Timer : MonoBehaviour
         started = true;
     }
 
+    public void StopTimer()
+    {
+        timer = maxTime;
+        started = false;
+    }
+
     public void OutOfTime() {
         timer = 0f;
         started = false;
+
+        beers.RemoveBeer();
+        typingInput.Fail();
     }
 
 

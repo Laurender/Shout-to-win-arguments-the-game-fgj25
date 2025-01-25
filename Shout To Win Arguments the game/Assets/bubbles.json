@@ -1,0 +1,116 @@
+{
+    "level1": [
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ],
+    "level2": [
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ],
+    "level3": [
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ]
+}

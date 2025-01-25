@@ -10,7 +10,11 @@ public class TypingInput : MonoBehaviour
     private TMPro.TextMeshProUGUI expectedText;
     private Animator errorAnimator;
 
+    private Timer timer;
+
     private string expectedString;
+
+    private bool active;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,47 +23,73 @@ public class TypingInput : MonoBehaviour
         expectedText = transform.Find("ExpectedText").GetComponent<TMPro.TextMeshProUGUI>();
         errorAnimator = transform.Find("Error").GetComponent<Animator>();
 
-        SetExpectedString("TESTING TESTING");
+        timer = FindFirstObjectByType<Timer>();
+
+        StartTyping("TESTING TESTING");
     }
 
     // Update is called once per frame
     void Update()
     {
-        int i = 0;
-        foreach (char c in Input.inputString)
+        if (active)
         {
-            // Do not append line breaks or backspaces
-            if ((c != '\b') && (c != '\n') && (c != '\r'))
+            int i = 0;
+            foreach (char c in Input.inputString)
             {
-                // Only append character if it is correct
-                if (c == expectedString[writtenText.text.Length + i])
+                // Do not append line breaks or backspaces
+                if ((c != '\b') && (c != '\n') && (c != '\r'))
                 {
-                    writtenText.text += c;
-                } else
-                {
-                    errorAnimator.Play("Error", -1, 0f);
-                }
+                    // Only append character if it is correct
+                    if (c == expectedString[writtenText.text.Length + i])
+                    {
+                        writtenText.text += c;
+                    }
+                    else
+                    {
+                        errorAnimator.Play("Error", -1, 0f);
+                    }
 
-                if (writtenText.text == expectedString)
-                {
-                    Success();
+                    if (writtenText.text == expectedString)
+                    {
+                        Success();
+                    }
+
                 }
-                
+                i++;
             }
-            i++;
+        
         }
     }
 
-    void SetExpectedString(string expected) {
+    public void SetExpectedString(string expected) {
         writtenText.text = "";
         expectedString = expected;
         expectedText.text = expected;
+    }
+
+    public void StartTyping(string expected)
+    {
+        SetExpectedString(expected);
+        active = true;
+        timer.StartTimer();
+    }
+
+    public void Fail()
+    {
+        Debug.Log("Fail");
+        SetExpectedString("");
+        active = false;
+        errorAnimator.Play("Error", -1, 0f);
     }
 
     void Success()
     {
         Debug.Log("Success");
         SetExpectedString("");
+
+        active = false;
+
+        timer.StopTimer();
     }
 
 }
