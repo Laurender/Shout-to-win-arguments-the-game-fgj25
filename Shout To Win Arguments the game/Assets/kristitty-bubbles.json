@@ -1,0 +1,116 @@
+{
+    "level1": [
+        {
+            "phrase": "ensimmäinen ensimmäisellä levelillä",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "toinen ensimmäisellä levelillä",
+            "correct": "like",
+            "answers": {
+                "like": "AAA",
+                "dislike": "BBB",
+                "hate": "CCC"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ],
+    "level2": [
+        {
+            "phrase": "ensimmäinen toisella levelillä",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "toinen toisella levelillä",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ],
+    "level3": [
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        },
+        {
+            "phrase": "Örrörrörr",
+            "correct": "like",
+            "answers": {
+                "like": "Blöblöblö",
+                "dislike": "Blablabla",
+                "hate": "Arrr"
+            }
+        }
+    ]
+}
