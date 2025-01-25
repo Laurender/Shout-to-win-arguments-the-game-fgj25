@@ -1011,7 +1011,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "GGJ 2025 \n\nTeam:\n\nIrratium / Ari \r\nkarriz \r\nSamJumisko \r\nLaurender
-    (Lauri) \r\nNepaipa\nM Ida\n\n"
+    (Lauri) \r\nNepaipa\nM Ida\nPyry T.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9c2b0c9fb0808ab4592494292a7660c3, type: 2}
   m_sharedMaterial: {fileID: 6315714964535242631, guid: 9c2b0c9fb0808ab4592494292a7660c3, type: 2}
