@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Char_vihervassari_flip_0: 6011460974967219466
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

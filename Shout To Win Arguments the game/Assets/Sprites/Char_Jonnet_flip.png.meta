@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Char_Jonnet_flip_0: -2835374951986115597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

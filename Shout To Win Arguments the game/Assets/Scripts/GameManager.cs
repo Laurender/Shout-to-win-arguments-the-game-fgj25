@@ -26,17 +26,22 @@ public class GameManager : MonoBehaviour
     int score = 0;
     public TMP_Text scoreT;
 
+    private GameObject win;
+
     int level = 1;
 
     private void Start()
     {
+        win = GameObject.Find("Win");
+        win.SetActive(false);
+
         activeCharacters = new Speechbubble[questionAmount];
         //start with first 3 characters
         //ask each character to choose a question
         for(int i = 0;i < questionAmount; i++)
         {
             characters[i].gameObject.SetActive(true);
-            characters[i].AskQuestion(level);
+            characters[i].AskQuestion(level, 0);
             activeCharacters[i] = characters[i];
         }
         nextCharacter = questionAmount;
@@ -45,7 +50,7 @@ public class GameManager : MonoBehaviour
             nextCharacter = 0;
             if (level < 3)
             {
-                level++;
+                //level++;
             }
         }
 
@@ -88,7 +93,7 @@ public class GameManager : MonoBehaviour
             nextCharacter = 0;
             if (level < 3)
             {
-                level++;
+                //level++;
             }
         }
     }
@@ -119,6 +124,10 @@ public class GameManager : MonoBehaviour
     {
         score += s;
         scoreT.text = score.ToString() + "/7";
+        if(score >= 7)
+        {
+            win.SetActive(true);
+        }
 
         for (int i = 0; i < activeCharacters.Length; i++) { 
             if(activeCharacters[i] == currentBubble)

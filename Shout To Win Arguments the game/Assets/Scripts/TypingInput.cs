@@ -21,6 +21,7 @@ public class TypingInput : MonoBehaviour
     bool correct = false;
 
     private AudioSource audioSource;
+    public AudioSource booAudio;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -105,16 +106,23 @@ public class TypingInput : MonoBehaviour
         if (correct)
         {
             gm.OnTypingEnd(1);
+
+            if (audioSource != null)
+            {
+                audioSource.Play();
+            }
         } else
         {
             gm.OnTypingEnd(0);
+
+            if (booAudio != null)
+            {
+                booAudio.Play();
+            }
         }
 
 
-        if (audioSource != null)
-        {
-            audioSource.Play();
-        }
+        
     }
 
 }

@@ -19,7 +19,7 @@ public class Speechbubble : MonoBehaviour
     private AudioSource audioSource;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         audioSource = GetComponent<AudioSource>();
     }
@@ -91,6 +91,13 @@ public class Speechbubble : MonoBehaviour
         {
             audioSource.Play();
         }
+    }
+
+    public void AskQuestion(int l, int i)
+    {
+        nextBub = bRead.getNextBubble(character, l);
+        bubbleText.text = nextBub.phrase;
+
     }
 
     public void SetUsable()
