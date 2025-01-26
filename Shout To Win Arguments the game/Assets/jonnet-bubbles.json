@@ -10,15 +10,6 @@
             }
         },
         {
-            "phrase": "Hyvät sulle. Kiva ku jaksat käydä.",
-            "correct": "like",
-            "answers": {
-                "like": "AAA",
-                "dislike": "BBB",
-                "hate": "CCC"
-            }
-        },
-        {
             "phrase": "ES on jumalten juoma. Varmaan puolet mun ravinnosta on ES:ää.",
             "correct": "dislike",
             "answers": {
