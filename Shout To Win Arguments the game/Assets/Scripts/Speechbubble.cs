@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System;
+using System.Collections.Generic;
 
 public class Speechbubble : MonoBehaviour
 {
@@ -32,7 +33,7 @@ public class Speechbubble : MonoBehaviour
         }
     }
 
-    public string ChooseResponse(int choise)
+    /*public string ChooseResponse(int choise)
     {
         //use int choise to choose response
         //1=agree, 2=disagree, 3=angry?
@@ -51,6 +52,34 @@ public class Speechbubble : MonoBehaviour
         }
 
         return response;
+    }*/
+
+    public (string, bool) ChooseResponse(int choise)
+    {
+        //use int choise to choose response
+        //1=agree, 2=disagree, 3=angry?
+        string response = null;
+        bool correct = false;
+        switch (choise)
+        {
+            case 1:
+                response = nextBub.answers.like;
+                correct = "like" == nextBub.correct;
+                break;
+            case 2:
+                response = nextBub.answers.dislike;
+                correct = "dislike" == nextBub.correct;
+                break;
+            case 3:
+                response = nextBub.answers.hate;
+                correct = "hate" == nextBub.correct;
+                break;
+        }
+        //Debug.Log(correct);
+
+
+
+        return (response, correct);
     }
 
     public void AskQuestion(int l)
