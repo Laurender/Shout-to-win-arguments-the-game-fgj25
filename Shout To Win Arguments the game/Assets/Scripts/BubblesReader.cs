@@ -4,6 +4,8 @@ using System.Data;
 using NUnit.Framework;
 using System.Collections.Generic;
 using NUnit.Framework.Constraints;
+using System.Collections;
+using UnityEngine.Networking;
 
 [System.Serializable]
 public class Bubbles
@@ -41,17 +43,17 @@ public class BubblesReader : MonoBehaviour
 
     void Awake()
     {
-        characterBubbles = new Dictionary<string, Bubbles>
-        {
-            { "test", GetBubbles("bubbles.json") },
-            { "rasisti", GetBubbles("rasisti-bubbles.json") },
-            { "pissis", GetBubbles("pissis-bubbles.json") },
-            { "doomer", GetBubbles("doomer-bubbles.json") },
-            { "boomer", GetBubbles("boomer-bubbles.json") },
-            { "kristitty", GetBubbles("kristitty-bubbles.json") },
-            { "jonnet", GetBubbles("jonnet-bubbles.json") },
-            { "vihervassarit", GetBubbles("vihervassarit-bubbles.json") },
-        };
+        DontDestroyOnLoad(this.gameObject);
+        characterBubbles = new Dictionary<string, Bubbles>();
+
+        StartCoroutine(LoadJsonFromStreamingAssets("test", "bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("rasisti", "rasisti-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("pissis", "pissis-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("doomer", "doomer-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("boomer", "boomer-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("kristitty", "kristitty-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("jonnet", "jonnet-bubbles.json"));
+        StartCoroutine(LoadJsonFromStreamingAssets("vihervassarit", "vihervassarit-bubbles.json"));
 
         usedBubbles = new Dictionary<string, int>
         {
@@ -80,13 +82,6 @@ public class BubblesReader : MonoBehaviour
             { "vihervassarit2", 0  },
             { "vihervassarit3", 0  },
         };
-
-        Debug.Log("TESTING");
-        Debug.Log(getNextBubble("test", 1).phrase);
-        Debug.Log(getNextBubble("test", 1).phrase);
-
-        Debug.Log(getNextBubble("test", 2).phrase);
-        Debug.Log(getNextBubble("test", 2).phrase);
     }
 
     public Bubble getNextBubble(string character, int level)
@@ -128,6 +123,28 @@ public class BubblesReader : MonoBehaviour
             Debug.LogError("Cannot find file!");
 
             return null;
+        }
+    }
+
+    IEnumerator LoadJsonFromStreamingAssets(string name, string filename)
+    {
+        string path = System.IO.Path.Combine(Application.streamingAssetsPath, filename);
+
+        UnityWebRequest request = UnityWebRequest.Get(path);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+        {
+            Debug.LogError(request.error);
+        }
+        else
+        {
+            string json = request.downloadHandler.text;
+            Debug.Log(json);
+
+            Bubbles parsedBubbles = JsonUtility.FromJson<Bubbles>(json);
+
+            characterBubbles.Add(name, parsedBubbles);
         }
     }
 }

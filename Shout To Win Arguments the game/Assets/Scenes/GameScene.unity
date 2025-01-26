@@ -509,7 +509,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 1176529874}
   character: doomer
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!114 &109679258
 MonoBehaviour:
@@ -716,7 +715,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 397316300}
   character: jonnet
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &246011916
 AudioSource:
@@ -942,7 +940,6 @@ GameObject:
   - component: {fileID: 286104673}
   - component: {fileID: 286104676}
   - component: {fileID: 286104677}
-  - component: {fileID: 286104678}
   - component: {fileID: 286104679}
   - component: {fileID: 286104680}
   m_Layer: 0
@@ -1093,26 +1090,6 @@ MonoBehaviour:
   choises: {fileID: 1756090188}
   typing: {fileID: 756086685}
   scoreT: {fileID: 1702441650}
---- !u!114 &286104678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286104672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aef264eb7e6a8a74fb37ae52926e3338, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bubbles:
-    level1: []
-    level2: []
-    level3: []
-  testBubbles:
-    level1: []
-    level2: []
-    level3: []
 --- !u!82 &286104679
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2149,7 +2126,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 86433251}
   character: rasisti
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &589904183
 AudioSource:
@@ -2360,7 +2336,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 1958134687}
   character: kristitty
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &627810176
 AudioSource:
@@ -2609,7 +2584,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 1389346219}
   character: boomer
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &631777604
 AudioSource:
@@ -3528,7 +3502,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 1041801135}
   character: vihervassarit
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &972889642
 AudioSource:
@@ -4932,7 +4905,6 @@ MonoBehaviour:
   bubbles: []
   bubbleText: {fileID: 1272755241}
   character: pissis
-  bRead: {fileID: 286104678}
   gm: {fileID: 286104677}
 --- !u!82 &1463407842
 AudioSource:
