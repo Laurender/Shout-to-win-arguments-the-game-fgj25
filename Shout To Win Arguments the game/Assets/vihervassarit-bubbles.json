@@ -1,39 +1,57 @@
 {
     "level1": [
         {
-            "phrase": "ensimmäinen ensimmäisellä levelillä",
+            "phrase": "Vituttaa rasistit",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": " Jep.",
+                "dislike": "Rasismi on ihan luonnollinen ilmiö. Ihmiset on aina pelänny vieraita asioita. Se on ihan luonnollinen juttu, jolle tuskin voidaan mitään.",
+                "hate": " Mikä vittu ite oot! Joku ituhippi"
             }
         },
         {
-            "phrase": "toinen ensimmäisellä levelillä",
+            "phrase": "Maailma on ihana paikka!",
             "correct": "like",
             "answers": {
-                "like": "AAA",
-                "dislike": "BBB",
-                "hate": "CCC"
+                "like": "Ihana juttu.",
+                "dislike": "No tuota noin.... On pari juttua.",
+                "hate": "Painu sinä helvettiin vitun puunhalailija! Maailma on paska paikka! Vittu mä vihaan"
             }
         },
         {
-            "phrase": "Örrörrörr",
+            "phrase": "Tiede on ottanu tosi hyviä edistysaskelia viime vuodet",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Kuten?",
+                "dislike": "Ei kiinnosta kyllä paskaakaan. Turhaa.",
+                "hate": "Sais hirttää kaikki professorit! Niillä ei tee kyllä yhtään mitään. Ihme elostelijoita! Raamattu vastaa kaikkiin merkittäviin kysymyksiin. "
             }
         },
         {
-            "phrase": "Örrörrörr",
+            "phrase": "Onkohan maailmankaikkeudessa paljonkin elementtejä jotka on vielä tutkimatta. Mietin avaruusmatkailua esimerkiksi.",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Niin mitä aattelet siitä?",
+                "dislike": "Vittu mitä horinaa. Kiinnostaa ku kilo paskaa. Mulla on aivan vitusti riittävästi mietittävää omassa elämässä. Ei todellakaan jaksa mälvätä tollasta paskaa. Täysin yhdentekevää ihmiselämän kannalta!",
+                "hate": "Täysin turhaa horinaa. Ei kiinnosta. Pitäsit turpas kiinni."
+            }
+        },
+        {
+            "phrase": "Suomi ei kyl tarvis ollenkaan armeijaa. Sotiminen on niin turhaa.",
+            "correct": "dislike",
+            "answers": {
+                "dislike": "Armeija taitaa nyky realiteeteilla olla kyl pakollinen. Venäjä ja muutenki.",
+                "hate": "Vittu mitä horinaa. Kiinnostaa ku kilo paskaa. Mulla on aivan vitusti riittävästi mietittävää omassa elämässä. Ei todellakaan jaksa mälvätä tollasta paskaa. Täysin yhdentekevää ihmiselämän kannalta!",
+                "like": "Sota on kyllä perseestä. Lopetetaan kaikki turvatoimet! Mä pidän ovet auki omaanki kämppään, vielä ei oo mitään viety, vaikka asun kyllä keskustassa..."
+            }
+        },
+        {
+            "phrase": "Punaviini on juomien aatelija. Voispa olla aina kännissä. ",
+            "correct": "dislike",
+            "answers": {
+                "like": "Joo, mies puhuu asiaa! Ryyppäämään, ryyppäämään, joka aamu sännätään, ja kun ilta on ohi nii lisää kännätään! Tuohan pöytä täyteen. Tuu säki tähän mun pöytään! ",
+                "dislike": "No, tuota tuota.. Jos ei kuitenkaan. Viini on kyllä hyvää. Mut, aina kännissä, eh. Ei.",
+                "hate": "Vitun juoppo! Ei vittu jaksa kuunnella tommosta kännipuhetta. Painu sinä johonki vittuun. Tää on fiksujen ihmisten baari."
             }
         }
     ],
