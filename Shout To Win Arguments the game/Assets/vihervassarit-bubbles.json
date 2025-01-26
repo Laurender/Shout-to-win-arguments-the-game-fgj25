@@ -4,9 +4,9 @@
             "phrase": "Vituttaa rasistit",
             "correct": "like",
             "answers": {
-                "like": " Jep.",
+                "like": "Jep.",
                 "dislike": "Rasismi on ihan luonnollinen ilmiö. Ihmiset on aina pelänny vieraita asioita. Se on ihan luonnollinen juttu, jolle tuskin voidaan mitään.",
-                "hate": " Mikä vittu ite oot! Joku ituhippi"
+                "hate": "Mikä vittu ite oot! Joku ituhippi"
             }
         },
         {
@@ -24,7 +24,7 @@
             "answers": {
                 "like": "Kuten?",
                 "dislike": "Ei kiinnosta kyllä paskaakaan. Turhaa.",
-                "hate": "Sais hirttää kaikki professorit! Niillä ei tee kyllä yhtään mitään. Ihme elostelijoita! Raamattu vastaa kaikkiin merkittäviin kysymyksiin. "
+                "hate": "Sais hirttää kaikki professorit! Niillä ei tee kyllä yhtään mitään. Ihme elostelijoita! Raamattu vastaa kaikkiin merkittäviin kysymyksiin."
             }
         },
         {
@@ -49,7 +49,7 @@
             "phrase": "Punaviini on juomien aatelija. Voispa olla aina kännissä. ",
             "correct": "dislike",
             "answers": {
-                "like": "Joo, mies puhuu asiaa! Ryyppäämään, ryyppäämään, joka aamu sännätään, ja kun ilta on ohi nii lisää kännätään! Tuohan pöytä täyteen. Tuu säki tähän mun pöytään! ",
+                "like": "Joo, mies puhuu asiaa! Ryyppäämään, ryyppäämään, joka aamu sännätään, ja kun ilta on ohi nii lisää kännätään! Tuohan pöytä täyteen. Tuu säki tähän mun pöytään!",
                 "dislike": "No, tuota tuota.. Jos ei kuitenkaan. Viini on kyllä hyvää. Mut, aina kännissä, eh. Ei.",
                 "hate": "Vitun juoppo! Ei vittu jaksa kuunnella tommosta kännipuhetta. Painu sinä johonki vittuun. Tää on fiksujen ihmisten baari."
             }
