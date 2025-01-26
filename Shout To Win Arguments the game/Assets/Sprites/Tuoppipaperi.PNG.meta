@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Tuoppipaperi_0: -1623605601258302608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -18,6 +18,8 @@ public class TypingInput : MonoBehaviour
 
     public GameManager gm;
 
+    bool correct = false;
+
     private AudioSource audioSource;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -74,9 +76,10 @@ public class TypingInput : MonoBehaviour
         expectedText.text = expected;
     }
 
-    public void StartTyping(string expected)
+    public void StartTyping(string expected, bool c)
     {
         SetExpectedString(expected);
+        correct = c;
         active = true;
         timer.StartTimer();
     }
@@ -87,7 +90,7 @@ public class TypingInput : MonoBehaviour
         SetExpectedString("");
         active = false;
         errorAnimator.Play("Error", -1, 0f);
-        gm.OnTypingEnd();
+        gm.OnTypingEnd(0);
     }
 
     void Success()
@@ -99,7 +102,13 @@ public class TypingInput : MonoBehaviour
 
         timer.StopTimer();
 
-        gm.OnTypingEnd();
+        if (correct)
+        {
+            gm.OnTypingEnd(1);
+        } else
+        {
+            gm.OnTypingEnd(0);
+        }
 
 
         if (audioSource != null)

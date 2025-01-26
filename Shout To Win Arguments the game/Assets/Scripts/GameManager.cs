@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System;
+using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
@@ -21,6 +22,9 @@ public class GameManager : MonoBehaviour
     public GameObject choises;
 
     public TypingInput typing;
+
+    int score = 0;
+    public TMP_Text scoreT;
 
     int level = 1;
 
@@ -58,6 +62,21 @@ public class GameManager : MonoBehaviour
 
     public void AskNextQuestion()
     {
+        while (true)
+        {
+            if (characters[nextCharacter] == activeCharacters[0] || characters[nextCharacter] == activeCharacters[1] || characters[nextCharacter] == activeCharacters[2])
+            {
+                nextCharacter++;
+                if (nextCharacter >= characters.Length)
+                {
+                    nextCharacter = 0;
+                }
+            }
+            else
+            {
+                break;
+            }
+        }
 
         characters[nextCharacter].gameObject.SetActive(true);
         characters[nextCharacter].AskQuestion(level);
@@ -90,13 +109,17 @@ public class GameManager : MonoBehaviour
 
     public void OnChoiseClick(int c)
     {
-        string response = currentBubble.ChooseResponse(c);
-        typing.StartTyping(response);
+        var response = currentBubble.ChooseResponse(c);
+        Debug.Log(response.Item1 + ": " + response.Item2);
+        typing.StartTyping(response.Item1, response.Item2);
         choises.SetActive(false);
     }
 
-    public void OnTypingEnd()
+    public void OnTypingEnd(int s)
     {
+        score += s;
+        scoreT.text = score.ToString() + "/7";
+
         for (int i = 0; i < activeCharacters.Length; i++) { 
             if(activeCharacters[i] == currentBubble)
             {
