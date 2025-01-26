@@ -1,21 +1,21 @@
 {
     "level1": [
         {
-            "phrase": "ensimmäinen ensimmäisellä levelillä",
+            "phrase": "Onni asuu omissa arvoissa. ",
             "correct": "like",
             "answers": {
-                "like": "Blöblöblö",
-                "dislike": "Blablabla",
-                "hate": "Arrr"
+                "like": "Oman näköinen elämä on todella tärkeä.",
+                "dislike": "Myös muut ihmiset sun ympärillä ratkasee paljon.",
+                "hate": "Vittu paras sinäki sanomaan toisen puolesta vitun jeesustelija! Elämä on vitun taffia eikä sinä tollanen selittely auta paskan vertaa! “Löydä omat arvos!” Vittu on pokkaa! Näillä taustoilla. "
             }
         },
         {
-            "phrase": "toinen ensimmäisellä levelillä",
-            "correct": "like",
+            "phrase": "Raamatussa on totuus. ",
+            "correct": "dislike",
             "answers": {
-                "like": "AAA",
-                "dislike": "BBB",
-                "hate": "CCC"
+                "like": "Mä oon lukenut Raamattua myös.",
+                "dislike": "Onks tää ny aika ja paikka tälle asialle?",
+                "hate": "Ei kyllä vittu kiinnosta paskan vertaa. Mene möyhöömään jollekki toiselle. Vitun pelle"
             }
         },
         {

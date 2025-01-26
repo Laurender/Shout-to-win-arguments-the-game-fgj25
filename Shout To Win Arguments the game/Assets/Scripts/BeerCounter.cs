@@ -6,10 +6,14 @@ public class BeerCounter : MonoBehaviour
 
     private AudioSource audioSource;
 
+    private GameObject gameOver;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        gameOver = GameObject.Find("GameOver");
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -29,6 +33,11 @@ public class BeerCounter : MonoBehaviour
             if (audioSource != null)
             {
                 audioSource.Play();
+            }
+
+            if (beers == 0)
+            {
+                gameOver.SetActive(true);
             }
         }
     }
