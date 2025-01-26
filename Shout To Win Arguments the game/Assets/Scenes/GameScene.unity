@@ -1087,7 +1087,6 @@ MonoBehaviour:
   - {fileID: 589904182}
   - {fileID: 631777603}
   - {fileID: 627810175}
-  - {fileID: 109679257}
   - {fileID: 246011915}
   - {fileID: 972889641}
   - {fileID: 1463407841}
@@ -3230,6 +3229,10 @@ PrefabInstance:
     - target: {fileID: 5311663368552006979, guid: f1f4c3c3fc4f6b248bab771c0872e09b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5857587560538763826, guid: f1f4c3c3fc4f6b248bab771c0872e09b, type: 3}
+      propertyPath: maxTime
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6417415836268978982, guid: f1f4c3c3fc4f6b248bab771c0872e09b, type: 3}
       propertyPath: m_SizeDelta.x
