@@ -11,7 +11,7 @@ public class Speechbubble : MonoBehaviour
     public TMP_Text bubbleText;
 
     public string character = "test";
-    public BubblesReader bRead;
+    private BubblesReader bRead;
     Bubble nextBub;
     public GameManager gm;
     bool active = true;
@@ -21,6 +21,7 @@ public class Speechbubble : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        bRead = FindFirstObjectByType<BubblesReader>();
         audioSource = GetComponent<AudioSource>();
     }
 
