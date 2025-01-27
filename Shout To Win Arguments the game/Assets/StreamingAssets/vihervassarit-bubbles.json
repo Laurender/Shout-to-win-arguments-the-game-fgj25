@@ -4,9 +4,9 @@
             "phrase": "Vituttaa rasistit",
             "correct": "like",
             "answers": {
-                "like": "Jep.",
+                "like": "Jep. Miksei voitais vaan tulla toimeen keskenämme.",
                 "dislike": "Rasismi on ihan luonnollinen ilmiö. Ihmiset on aina pelänny vieraita asioita. Se on ihan luonnollinen juttu, jolle tuskin voidaan mitään.",
-                "hate": "Mikä vittu ite oot! Joku ituhippi"
+                "hate": "Ihme hippimenoa taas. Antakaa mun vihata!"
             }
         },
         {
@@ -15,16 +15,16 @@
             "answers": {
                 "like": "Ihana juttu.",
                 "dislike": "No tuota noin.... On pari juttua.",
-                "hate": "Painu sinä helvettiin vitun puunhalailija! Maailma on paska paikka! Vittu mä vihaan"
+                "hate": "Kaikki on perseestä öääääärghhhh yääääähhhhhrgh!"
             }
         },
         {
             "phrase": "Tiede on ottanu tosi hyviä edistysaskelia viime vuodet",
             "correct": "like",
             "answers": {
-                "like": "Kuten?",
+                "like": "Nykyteknologia on kyllä hienoa",
                 "dislike": "Ei kiinnosta kyllä paskaakaan. Turhaa.",
-                "hate": "Sais hirttää kaikki professorit! Niillä ei tee kyllä yhtään mitään. Ihme elostelijoita! Raamattu vastaa kaikkiin merkittäviin kysymyksiin."
+                "hate": "Tuulivoimalat on aikamme suurin huijaus. Pyörittää nyt sähköllä niitä helvetin vatkaimia kellon ympäri..."
             }
         },
         {
@@ -32,26 +32,26 @@
             "correct": "like",
             "answers": {
                 "like": "Niin mitä aattelet siitä?",
-                "dislike": "Vittu mitä horinaa. Kiinnostaa ku kilo paskaa. Mulla on aivan vitusti riittävästi mietittävää omassa elämässä. Ei todellakaan jaksa mälvätä tollasta paskaa. Täysin yhdentekevää ihmiselämän kannalta!",
-                "hate": "Täysin turhaa horinaa. Ei kiinnosta. Pitäsit turpas kiinni."
+                "dislike": "Tuskimpa sieltä mitään löytyy. Ja jos löytyy niin ei meidän elinaikana.",
+                "hate": "Avaruusmatkailu on liskoihmisten kehittämä vale!"
             }
         },
         {
             "phrase": "Suomi ei kyl tarvis ollenkaan armeijaa. Sotiminen on niin turhaa.",
             "correct": "dislike",
             "answers": {
-                "dislike": "Armeija taitaa nyky realiteeteilla olla kyl pakollinen. Venäjä ja muutenki.",
-                "hate": "Vittu mitä horinaa. Kiinnostaa ku kilo paskaa. Mulla on aivan vitusti riittävästi mietittävää omassa elämässä. Ei todellakaan jaksa mälvätä tollasta paskaa. Täysin yhdentekevää ihmiselämän kannalta!",
+                "dislike": "Armeija taitaa nyky realiteeteilla olla kyl pakollinen.",
+                "hate": "Ihme horinaa. Oksanpätkälläkö ajattelit itteäs puolustaa jos paska osuu tuulettimeen?",
                 "like": "Sota on kyllä perseestä. Lopetetaan kaikki turvatoimet! Mä pidän ovet auki omaanki kämppään, vielä ei oo mitään viety, vaikka asun kyllä keskustassa..."
             }
         },
         {
-            "phrase": "Punaviini on juomien aatelija. Voispa olla aina kännissä. ",
+            "phrase": "Punaviini on juomien aatelija. Voispa olla aina kännissä.",
             "correct": "dislike",
             "answers": {
                 "like": "Joo, mies puhuu asiaa! Ryyppäämään, ryyppäämään, joka aamu sännätään, ja kun ilta on ohi nii lisää kännätään! Tuohan pöytä täyteen. Tuu säki tähän mun pöytään!",
                 "dislike": "No, tuota tuota.. Jos ei kuitenkaan. Viini on kyllä hyvää. Mut, aina kännissä, eh. Ei.",
-                "hate": "Vitun juoppo! Ei vittu jaksa kuunnella tommosta kännipuhetta. Painu sinä johonki vittuun. Tää on fiksujen ihmisten baari."
+                "hate": "Joisit sinäkin jotain oikiaa juomaa. Keppanaa sen olla pitää!"
             }
         }
     ],

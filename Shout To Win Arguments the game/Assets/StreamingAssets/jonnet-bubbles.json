@@ -5,8 +5,8 @@
             "correct": "like",
             "answers": {
                 "like": "Hyvät sulle. Kiva ku jaksat käydä.",
-                "dislike": "Sali on ihan vitun tylsää puuhaa. Mä en kyllä tajua kuka siellä jaksaa käydä. Ajan haaskausta.",
-                "hate": "Mikä vitun salijaska sä oot! Pelle! Ei tolla naamalla saa naista vaikka kävis salilla viidesti päivässä!"
+                "dislike": "Sali on ihan tosi tylsää puuhaa. Mä en kyllä tajua kuka siellä jaksaa käydä. Ajan haaskausta.",
+                "hate": "Noista rimpulakäsistä päätellen et kyllä oo nostellu ku housujas. Hanki henkselit!"
             }
         },
         {
@@ -15,16 +15,16 @@
             "answers": {
                 "like": "Niin munki! Ihminen ei tarvi about mitää muuta! Kunnon pärinät päällä 24/7.",
                 "dislike": "Onkohan toi ny ihan fiksua?",
-                "hate": "Vitun aivokääpiö! Toi on ihan saatanan epäterveellistä. Nyt vittu loppuu tommonen elämä ja alat syyä ja elää ihmisiks! Kuolet tota menoo."
+                "hate": "Ai vedätkö sä sitä ydinjätteen hajuista litkua? Hyisss..."
             }
         },
         {
-            "phrase": "Pillu se on pingviinilläki! Iskin viime viikonloppuna yhen kurpan ja nussin sitä koko viikonlopun, se huus niin hoosiannaa mun käsissä!",
+            "phrase": "Laitoin viime viikolla meitsin mopoautoon uuden 2000W subbarin konttiin. Kyllä jytisee!",
             "correct": "like",
             "answers": {
-                "like": "Hyvät sulle.",
-                "dislike": "Et vittu puhu naisista tohon sävyyn.",
-                "hate": "Ihan perseestä et sulla on noita naisia joka sormelle, ja meitsi on ollu yksin koko vitun elämäni. Mene sinä helvettiin noitten naistes kanssa. En tykkää! Kehtaat vielä leuhkia!"
+                "like": "Se on hyvä että nuoriso harrastaa musiikkia",
+                "dislike": "Onko sitä ympäristöä pakko turmella tommosella melusaasteella?",
+                "hate": "Hah! Jätkä leuhkii jollain mopoautolla ja subbarilla, seuraavaksi kai sanot että sun nimi on Jonne"
             }
         }
     ],

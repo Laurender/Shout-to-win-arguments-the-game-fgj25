@@ -1,21 +1,21 @@
 {
     "level1": [
         {
-            "phrase": "Köyhyys on ihmisen oma valinta ",
+            "phrase": "Kyllä ennen oli kaikki paremmin",
             "correct": "dislike",
             "answers": {
-                "like": "Niin onki! Sais kaikki sossupummit hirttää munistaan sinne kelan eteen...",
-                "dislike": "Onko? Miks vitussa kukaan valitsis niin?",
-                "hate": "Voi vittu nyt taas mitä paskaa täällä tarvii kuunnella. Mee etuoikeuksines helvettiin. "
+                "like": "Just niin! Mahotonta meininkiä, sanois Olli Santanen. Kyllä The Joulukalenteri on paras joulukalenteri mitä on tehty.",
+                "dislike": "Oliko nyt ihan varmasti? Nykyajassa on puolensa.",
+                "hate": "Jos ne vanhat ajat oli niin helvetin hienoja niin terve menoa takas kivikaudelle."
             }
         },
         {
-            "phrase": "Nuoret on pilalla. Kaikki roikkuu puhelimissa tai käyttää huumeita.",
+            "phrase": "Nuoret on pilalla. Kaikki roikkuu puhelimissa kaiken aikaa.",
             "correct": "like",
             "answers": {
                 "like": "Some ja nykymaailman aika on melko vaikea joo. Mut ei nuoret ole.",
                 "dislike": "Eiköhän samat ongelmat oo ollu kaikkina maailman aikoina. Eiköhän teilläki ollu vaikeutenne.",
-                "hate": "Mene sinä vittuun siitä selittelemästä! Sulla ei oo mitään hajua kuinka vaikeeta on elää nuorena tässä nykymaailmassa. Ite synnyit valmiisen maailmaan ja sait kaiken helposti! Toista se on nykyään!"
+                "hate": "......täh? En kuullu mitä sanoit ku katoin puhelinta mutta olit varmasti väärässä!"
             }
         },
         {

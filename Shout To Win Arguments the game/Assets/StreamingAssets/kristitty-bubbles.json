@@ -4,18 +4,18 @@
             "phrase": "Onni asuu omissa arvoissa. ",
             "correct": "like",
             "answers": {
-                "like": "Oman näköinen elämä on todella tärkeä.",
-                "dislike": "Myös muut ihmiset sun ympärillä ratkasee paljon.",
-                "hate": "Vittu paras sinäki sanomaan toisen puolesta vitun jeesustelija! Elämä on vitun taffia eikä sinä tollanen selittely auta paskan vertaa! “Löydä omat arvos!” Vittu on pokkaa! Näillä taustoilla."
+                "like": "Oman näköinen elämä on todella tärkeää.",
+                "dislike": "Minun arpoihin et koske! Minä oon nämä omilla rahoilla vaivalla hankkinu",
+                "hate": "Arvat sulla on housuissas. Sitäpaitsi kuka helvetti on Onni ja miks se asuis jossain arvoissa?"
             }
         },
         {
-            "phrase": "Raamatussa on totuus. ",
+            "phrase": "Raamatussa on totuus",
             "correct": "dislike",
             "answers": {
                 "like": "Mä oon lukenut Raamattua myös.",
                 "dislike": "Onks tää ny aika ja paikka tälle asialle?",
-                "hate": "Ei kyllä vittu kiinnosta paskan vertaa. Mene möyhöömään jollekki toiselle. Vitun pelle"
+                "hate": "Joo ja mä uskon lentävään spagettihirviöön"
             }
         },
         {
